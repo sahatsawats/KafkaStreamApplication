@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: akka.http.core
+Implementation-Title: akka-http-core
+Implementation-URL: https://akka.io
+Implementation-Vendor-Id: com.typesafe.akka
+Implementation-Vendor: Lightbend
+Implementation-Version: 10.2.6
+Specification-Title: akka-http-core
+Specification-Vendor: Lightbend
+Specification-Version: 10.2.6
+

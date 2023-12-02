@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: scala-collection-compat
+Implementation-Version: 2.3.0
+Specification-Vendor: org.scala-lang.modules
+Specification-Title: scala-collection-compat
+Implementation-Vendor-Id: org.scala-lang.modules
+Specification-Version: 2.3.0
+Implementation-URL: http://www.scala-lang.org/
+Implementation-Vendor: org.scala-lang.modules
+

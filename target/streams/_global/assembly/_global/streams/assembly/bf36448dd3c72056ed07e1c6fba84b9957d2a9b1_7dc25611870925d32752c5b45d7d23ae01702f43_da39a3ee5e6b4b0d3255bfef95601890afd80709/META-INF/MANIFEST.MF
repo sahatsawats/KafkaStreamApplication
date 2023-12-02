@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.github.luben.zstd_jni
+Bnd-LastModified: 1615191527618
+Bundle-Description: JNI bindings for Zstd native library that provides
+  fast and high compression lossless algorithm for Java and all JVM la
+ nguages.
+Bundle-License: https://opensource.org/licenses/BSD-2-Clause;descripti
+ on=BSD 2-Clause License
+Bundle-ManifestVersion: 2
+Bundle-Name: zstd-jni
+Bundle-NativeCode: aix/ppc64/libzstd-jni.so;osname=AIX;processor=ppc64
+ , darwin/x86_64/libzstd-jni.dylib;osname=MacOS;osname=MacOSX;processo
+ r=x86_64, darwin/aarch64/libzstd-jni.dylib;osname=MacOS;osname=MacOSX
+ ;processor=aarch64, freebsd/amd64/libzstd-jni.so;osname=FreeBSD;proce
+ ssor=amd64, freebsd/i386/libzstd-jni.so;osname=FreeBSD;processor=i386
+ , linux/aarch64/libzstd-jni.so;osname=Linux;processor=aarch64, linux/
+ amd64/libzstd-jni.so;osname=Linux;processor=amd64, linux/arm/libzstd-
+ jni.so;osname=Linux;processor=arm, linux/i386/libzstd-jni.so;osname=L
+ inux;processor=i386, linux/mips64/libzstd-jni.so;osname=Linux;process
+ or=mips64, linux/ppc64/libzstd-jni.so;osname=Linux;processor=ppc64, l
+ inux/ppc64le/libzstd-jni.so;osname=Linux;processor=ppc64le, linux/s39
+ 0x/libzstd-jni.so;osname=Linux;processor=s390x, win/amd64/libzstd-jni
+ .dll;osname=Win32;processor=amd64, win/x86/libzstd-jni.dll;osname=Win
+ 32;processor=x86
+Bundle-SymbolicName: com.github.luben.zstd-jni
+Bundle-Vendor: com.github.luben
+Bundle-Version: 1.4.9.1
+Created-By: 1.8.0_275 (Debian)
+Export-Package: com.github.luben.zstd;version="1.4.9.1",com.github.lub
+ en.zstd.util;version="1.4.9.1"
+Implementation-Title: zstd-jni
+Implementation-Vendor: com.github.luben
+Implementation-Vendor-Id: com.github.luben
+Implementation-Version: 1.4.9-1
+Import-Package: org.osgi.framework;resolution:=optional
+Private-Package: linux.amd64,linux.i386,linux.aarch64,linux.arm,linux.
+ ppc64,linux.ppc64le,linux.mips64,linux.s390x,aix.ppc64,darwin.x86_64,
+ darwin.aarch64,win.amd64,win.x86,freebsd.amd64,freebsd.i386
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: zstd-jni
+Specification-Vendor: com.github.luben
+Specification-Version: 1.4.9-1
+Tool: Bnd-4.0.0.201805111645
